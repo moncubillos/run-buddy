@@ -1,4 +1,10 @@
 section {
   padding: 60px;
-  background-image: url("https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg");
 }
+
+/* Hero Style Start */
+.hero {
+  background-image: url("/Users/oh.shescute./Desktop/run-buddy/assets/images/hero-bg.jpg");
+  height: 600px;
+}
+/* Hero Style End */
