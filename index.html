@@ -1,164 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+<head>
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <meta charset="UTF-8" />
-    <title>RUN BUDDY</title>
-  
-    <!-- Add this to the page and see what happens! -->
-   
-   <style>
+  <meta charset="UTF-8" />
+  <title>RUN BUDDY</title>
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-   
- body {
-        /* more on this crazy alphanumerical value in a minute! */
-  color: #39a6b2;
-  font-family: Helvetica, Arial, sans-serif;
-      }h1 {
-    font-size: 100px;
-  }  
-  
+  <!-- Add this to the page and see what happens! -->
 
-  /* apply styles to <header> */
-header {
-  padding: 20px 35px;
-  background-color: #39a6b2;
-}
-header h1 {
-  font-weight: bold;
-  font-size: 36px;
-  color: #fce138;
-  margin: 0;
-  display: inline;
-}
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-header a {
-  text-decoration: none;
-  color: #fce138;
-}
+    body {
+      /* more on this crazy alphanumerical value in a minute! */
+      color: #39a6b2;
+      font-family: Helvetica, Arial, sans-serif;
+    }
 
-header nav {
-  float: right;
-  margin: 7px 0;
-}
+    h1 {
+      font-size: 100px;
+    }
 
-header nav ul li {
-  display: inline;
-}
 
-header nav ul li a {
-  margin: 0 30px;
-  font-weight: lighter;
-  font-size: 22px;
-}
-footer {
-  background: #fce138;
-  width: 100%;
-  padding: 40px 35px;
-}
-footer h2 {
-  display: inline;
-  color: #024e76;
-  font-size: 30px;
-  margin: 0;
-}
-footer div {
-  float: right;
-  line-height: 1.5;
-  text-align: right;
-}
-footer a {
-  color: #024e76;
-}
-section {
-  padding: 60px;
-}
+    /* apply styles to <header> */
+    header {
+      padding: 20px 35px;
+      background-color: #39a6b2;
+    }
 
-  </style>
-  </head>
-  
+    header h1 {
+      font-weight: bold;
+      font-size: 36px;
+      color: #fce138;
+      margin: 0;
+      display: inline;
+    }
 
-    <!-- navigation -->
-    <header>
-      <h1>
-        <a href="/">RUN BUDDY</a>
-      </h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="#what-we-do">What We Do</a>
-          </li>
-          <li>
-            <a href="#what-you-do">What You Do</a>
-          </li>
-          <li>
-            <a href="#your-trainers">Your Trainers</a>
-          </li>
-          <li>
-            <a href="#reach-out">Reach Out</a>
-          </li>
-        </ul>
-      </nav>
-    </header  >
+    header a {
+      text-decoration: none;
+      color: #fce138;
+    }
+
+    header nav {
+      float: right;
+      margin: 7px 0;
+    }
+
+    header nav ul li {
+      display: inline;
+    }
+
+    header nav ul li a {
+      margin: 0 30px;
+      font-weight: lighter;
+      font-size: 22px;
+    }
+
+    footer {
+      background: #fce138;
+      width: 100%;
+      padding: 40px 35px;
+    }
+
+    footer h2 {
+      display: inline;
+      color: #024e76;
+      font-size: 30px;
+      margin: 0;
+    }
+
+    footer div {
+      float: right;
+      line-height: 1.5;
+      text-align: right;
+    }
+
+    footer a {
+      color: #024e76;
+    }
+
+</style>
+</head>
 
 <body>
-  <!-- hero/jumbotron -->
-  <section>
-    <div>    
-      <h3>Get Started Today</h3>
-      <p>Fill out this form and one of our trainers will schedule a consult</p>
 
-      <!-- Add form element -->
-      <form>
-        <label for="name">Enter full name:</label>
-        <input type="text" placeholder="Your Name" name="name" id="name" />
-        <label for="email">Enter email address:</label>
-        <input type="text" placeholder="Email Address" name="email" id="email" />
-        <label for="phone">Enter a telephone number:</label>
-        <input type="text" placeholder="Phone Number" name="phone" id="phone"/>
-        <p>
-          Have you worked out with a trainer before?
-          <input type="radio" name="trainer-confirm" id="trainer-yes" />
-          <label for="trainer-yes">Yes</label>
-          <input type="radio" name="trainer-confirm" id="trainer-no" />
-          <label for="trainer-no">No</label>
-        </p>
-      </form>
-             
+
+  <!-- navigation -->
+  <header>
+    <h1>
+      <a href="/">RUN BUDDY</a>
+    </h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="#what-we-do">What We Do</a>
+        </li>
+        <li>
+          <a href="#what-you-do">What You Do</a>
+        </li>
+        <li>
+          <a href="#your-trainers">Your Trainers</a>
+        </li>
+        <li>
+          <a href="#reach-out">Reach Out</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+  <!-- hero section -->
+<section>
+  <div>
+    <h3>Get Started Today!</h3>
+    <p>Fill out this form and one of our trainers will schedule a consult.</p>
+    <form>
+      <label for="name">Enter full name:</label>
+      <input type="text" placeholder="Your Name" name="name" id="name" />
+      <label for="email">Enter email address:</label>
+      <input type="email" placeholder="Email Address" name="email" id="email"/>
+      <label for="phone">Enter a telephone number:</label>
+      <input type="tel" placeholder="Phone Number" name="phone" id="phone"/>
+      
+      <p>
+        Have you worked out with a trainer before?
+        <input type="radio" name="trainer-confirm" id="trainer-yes" />
+        <label for="trainer-yes">Yes</label>
+        <input type="radio" name="trainer-confirm" id="trainer-no" />
+        <label for="trainer-no">No</label>
+      </p>
+      <p>
+        <label for="checkbox" >
+          I acknowledge that I am at least 18 years of age.
+        </label>
+        <input type="checkbox" name="age-confirm" id="checkbox" />
+      </p>
+      <button type="submit">
+        Get running!
+      </button>
+    </form>
   </div>
-  </section>
-  
+</section>
+<!-- end hero -->
+
+
   <!-- "what we do" section -->
   <section>
     <h2>What We Do</h2>
   </section>
-  
+
   <!-- "what you do" section -->
   <section>
     <h2>What You Do</h2>
   </section>
-  
+
   <!-- "meet the trainers" section -->
   <section>
     <h2>Meet The Trainers</h2>
   </section>
-  
+
   <!-- "reach out" section -->
   <section>
     <h2>Reach Out</h2>
   </section>
-  
+
   <!-- footer -->
   <footer>
     <h2>❤️ Made with love by Run Buddy.</h2>
-    
+
     <div>
       <a href="#">Read Our Privacy Policy</a><br />
       &copy; 2019 Run Buddy, Inc.
@@ -166,4 +181,5 @@ section {
 
   </footer>
 </body>
+
 </html>
