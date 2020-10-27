@@ -124,6 +124,8 @@ header nav ul li a {
 /* Hero Style End */ 
 
 
+
+
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
@@ -165,6 +167,9 @@ header nav ul li a {
   flex: 12;
 }
 
+.steps{
+background-color: #fce138;
+}
 
 .steps div {
   margin-bottom: 80px;
